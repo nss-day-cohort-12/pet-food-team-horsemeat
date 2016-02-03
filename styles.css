@@ -1,0 +1,13 @@
+.color {
+	text-align: left;
+	color: white;
+	background-color: blue;
+}
+
+.aligntext {
+	text-align: left;
+}
+
+.alignimage {
+	text-align: right;
+}
