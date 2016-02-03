@@ -1,3 +1,7 @@
+
+
+
+
 var data = JSON.parse(this.responseText);
 
 var contentEL = document.getElementById("dogFood")
@@ -29,7 +33,12 @@ for var i = 0, i<dogFood.length; i++) {
 
 	contentEL.innerHTML = dogFood;
 		
+var myRequest = new XMLHttpRequest();
 
+myRequest.addEventListener("load", executeThisCodeAfterFileIsLoaded);
+myRequest.open("GET", "dog.json");
+myRequest.send();
 		
+
 
 
