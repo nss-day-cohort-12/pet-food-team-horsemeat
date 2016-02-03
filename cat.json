@@ -1,0 +1,198 @@
+{  
+   "cat_brands":[  
+      {  
+         "name":"Purrina",
+         "types":[  
+            {  
+               "type":"Siamese",
+               "volumes":[  
+                  {  
+                     "size":"Kitten: 20oz",
+                     "price":19.99
+                  },
+                  {  
+                     "size":"Kitten: 32oz",
+                     "price":26.99
+                  },
+                  {  
+                     "size":"Kitten: 64oz",
+                     "price":34.99
+                  },
+                  {  
+                     "size":"Elite: 20oz",
+                     "price":24.99
+                  },
+                  {  
+                     "size":"Elite: 40oz",
+                     "price":47.99
+                  }
+               ]
+            },
+            {  
+               "type":"Bengal",
+               "volumes":[  
+                  {  
+                     "size":"Kitten: 20oz",
+                     "price":19.99
+                  },
+                  {  
+                     "size":"Kitten: 32oz",
+                     "price":26.99
+                  },
+                  {  
+                     "size":"Kitten: 64oz",
+                     "price":34.99
+                  },
+                  {  
+                     "size":"Elite: 20oz",
+                     "price":24.99
+                  },
+                  {  
+                     "size":"Elite: 40oz",
+                     "price":47.99
+                  }
+               ]
+            },
+            {  
+               "type":"Snowshow",
+               "volumes":[  
+                  {  
+                     "size":"Kitten: 20oz",
+                     "price":19.99
+                  },
+                  {  
+                     "size":"Kitten: 32oz",
+                     "price":26.99
+                  },
+                  {  
+                     "size":"Kitten: 64oz",
+                     "price":34.99
+                  },
+                  {  
+                     "size":"Elite: 20oz",
+                     "price":24.99
+                  },
+                  {  
+                     "size":"Elite: 40oz",
+                     "price":47.99
+                  }
+               ]
+            },
+            {  
+               "type":"Munchkin Kitten",
+               "volumes":[  
+                  {  
+                     "size":"Kitten: 20oz",
+                     "price":19.99
+                  },
+                  {  
+                     "size":"Kitten: 32oz",
+                     "price":26.99
+                  },
+                  {  
+                     "size":"Kitten: 64oz",
+                     "price":34.99
+                  },
+                  {  
+                     "size":"Elite: 20oz",
+                     "price":24.99
+                  },
+                  {  
+                     "size":"Elite: 40oz",
+                     "price":47.99
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"Meow Meal",
+         "types":[  
+            {  
+               "type":"Manx",
+               "volumes":[  
+                  {  
+                     "size":"Kitten: 24oz",
+                     "price":19.99
+                  },
+                  {  
+                     "size":"Kitten: 48oz",
+                     "price":34.99
+                  },
+                  {  
+                     "size":"Adult: 28oz",
+                     "price":22.99
+                  },
+                  {  
+                     "size":"Adult: 56oz",
+                     "price":40.99
+                  }
+               ]
+            },
+            {  
+               "type":"Egyptian Mau",
+               "volumes":[  
+                  {  
+                     "size":"Kitten: 24oz",
+                     "price":19.99
+                  },
+                  {  
+                     "size":"Kitten: 48oz",
+                     "price":34.99
+                  },
+                  {  
+                     "size":"Kitten: 28oz",
+                     "price":22.99
+                  },
+                  {  
+                     "size":"Elite: 56oz",
+                     "price":40.99
+                  }
+               ]
+            },
+            {  
+               "type":"Himalayan",
+               "volumes":[  
+                  {  
+                     "size":"Kitten: 24oz",
+                     "price":19.99
+                  },
+                  {  
+                     "size":"Kitten: 48oz",
+                     "price":34.99
+                  },
+                  {  
+                     "size":"Kitten: 28oz",
+                     "price":22.99
+                  },
+                  {  
+                     "size":"Elite: 56oz",
+                     "price":40.99
+                  }
+               ]
+            },
+            {  
+               "type":"Rag Doll Kitten",
+               "volumes":[  
+                  {  
+                     "size":"Kitten: 24oz",
+                     "price":19.99
+                  },
+                  {  
+                     "size":"Kitten: 48oz",
+                     "price":34.99
+                  },
+                  {  
+                     "size":"Kitten: 28oz",
+                     "price":22.99
+                  },
+                  {  
+                     "size":"Elite: 56oz",
+                     "price":40.99
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
