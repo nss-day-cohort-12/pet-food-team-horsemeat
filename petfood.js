@@ -22,18 +22,18 @@ for (var i = 0; i < data.dog_brands.length; i++) {
 	
 	// currentVolume = data.volumes[i];
 
-	dogFood += "<div>";
+	dogFood += '<div class="col-md-6">';
 		dogFood+=`<h1>${currentDog.name}</h1>`; 
-		dogFood+="<div class= type> Type: ";
+		dogFood+='<div class= "type"> Type: ';
 		dogFood+= `${currentDog.types[j].type}`;
-		dogFood+="</div>";
-		dogFood+="<div class= size> Size: ";
+		dogFood+='</div>';
+		dogFood+='<div class= "size"> Size: ';
 		dogFood+= `${currentDog.types[j].volumes[k].size}`;
-		dogFood+="</div>";
-		dogFood+="<div class= price> Price: ";
+		dogFood+='</div>';
+		dogFood+='<div class= "price"> Price: ';
 		dogFood+= `${currentDog.types[j].volumes[k].price}`;
-		dogFood+="</div>";
-		dogFood+="</div>";
+		dogFood+='</div>';
+		dogFood+='</div>';
 	
 }
 
