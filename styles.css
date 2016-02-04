@@ -1,7 +1,7 @@
 .color {
 	text-align: left;
 	color: white;
-	background-color: blue;
+	background-color: #FF99FF;
 }
 
 .aligntext {
@@ -10,4 +10,13 @@
 
 .alignimage {
 	text-align: center;
+}
+
+.body {
+	margin: 3% 10% 3% 10%;
+}
+
+.borderContainer {
+	border: solid;
+	border-color: black;
 }

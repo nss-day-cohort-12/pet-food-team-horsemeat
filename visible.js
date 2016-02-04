@@ -5,7 +5,19 @@ dog.addEventListener("click", function() {
 		dogFoodVisible.classList.add("visible");
 		dogFoodVisible.classList.remove("hidden");
 	
-	//var cuadroMenor = document.getElementById("add_cuadro");
-		//cuadroMenor.classList.add("hidden");
-		//cuadroMenor.classList.remove("visible")
+	var catFoodVisible = document.getElementById("cat-container");
+		catFoodVisible.classList.add("hidden");
+		catFoodVisible.classList.remove("visible")
+});
+
+var catData = document.getElementById("cat");
+cat.addEventListener("click", function() {
+	
+	var catFoodVisible = document.getElementById("cat-container");
+		catFoodVisible.classList.add("visible");
+		catFoodVisible.classList.remove("hidden");
+	
+	var dogFoodVisible = document.getElementById("dog-container");
+		dogFoodVisible.classList.add("hidden");
+		dogFoodVisible.classList.remove("visible")
 });

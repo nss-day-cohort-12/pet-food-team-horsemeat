@@ -22,7 +22,7 @@ for (var i = 0; i < data.dog_brands.length; i++) {
 	
 	// currentVolume = data.volumes[i];
 
-	dogFood += '<div class="col-md-6">';
+	dogFood += '<div class="col-md-6 borderContainer">';
 		dogFood+=`<h1>${currentDog.name}</h1>`; 
 		dogFood+='<div class= "type"> Type: ';
 		dogFood+= `${currentDog.types[j].type}`;
@@ -72,18 +72,18 @@ for (var i = 0; i < catData.cat_brands.length; i++) {
     
     // currentVolume = catData.volumes[i];
 
-    catFood += "<div>";
+    catFood += '<div class="col-md-6 borderContainer">';
         catFood+=`<h1>${currentCat.name}</h1>`; 
-        catFood+="<div class= type> Type: ";
+        catFood+='<div class= type> Type: ';
         catFood+= `${currentCat.types[j].type}`;
-        catFood+="</div>";
-        catFood+="<div class= size> Size: ";
+        catFood+='</div>';
+        catFood+='<div class= size> Size: ';
         catFood+= `${currentCat.types[j].volumes[k].size}`;
-        catFood+="</div>";
-        catFood+="<div class= price> Price: ";
+        catFood+='</div>';
+        catFood+='<div class= price> Price: ';
         catFood+= `${currentCat.types[j].volumes[k].price}`;
-        catFood+="</div>";
-        catFood+="</div>";
+        catFood+='</div>';
+        catFood+='</div>';
     
 }
 
