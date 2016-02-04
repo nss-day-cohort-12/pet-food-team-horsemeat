@@ -49,5 +49,54 @@ myRequest.open("GET", "dog.json");
 myRequest.send();
 		
 
+function ShowCatFood () {
+
+var catData = JSON.parse(this.responseText);
+console.log("catData", catData);
+
+var catFoodEl = document.getElementById("catFood")
+console.log("catFoodEl", catFoodEl);
+
+var catFood = "";
+var currentCat;
+var currentTypes = catData.cat_brands.types;
+
+for (var i = 0; i < catData.cat_brands.length; i++) {
+    currentCat = catData.cat_brands[i];
+    for (var j = 0; j < catData.cat_brands[i].types.length; j++) {
+    currentType = catData.cat_brands[j];
+    for (var k = 0; k < catData.cat_brands[i].types[j].volumes.length; k++) {
+    currentType = catData.cat_brands[k];
+
+
+    
+    // currentVolume = catData.volumes[i];
+
+    catFood += "<div>";
+        catFood+=`<h1>${currentCat.name}</h1>`; 
+        catFood+="<div class= type> Type: ";
+        catFood+= `${currentCat.types[j].type}`;
+        catFood+="</div>";
+        catFood+="<div class= size> Size: ";
+        catFood+= `${currentCat.types[j].volumes[k].size}`;
+        catFood+="</div>";
+        catFood+="<div class= price> Price: ";
+        catFood+= `${currentCat.types[j].volumes[k].price}`;
+        catFood+="</div>";
+        catFood+="</div>";
+    
+}
+
+    console.log(catFood);
+    catFoodEl.innerHTML = catFood;
+}
+}
+}    
+var myCatFoodRequest = new XMLHttpRequest();
+
+myCatFoodRequest.addEventListener("load", ShowCatFood);
+myCatFoodRequest.open("GET", "cat.json");
+myCatFoodRequest.send();		
+
 
 
